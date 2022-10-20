@@ -7,7 +7,7 @@
 
 ---
 
-{% for MenuPage in collections.MainPage %} [{{ MenuPage.data.title }}]({{ MenuPage.url }}) {% endfor %}
+[Home](/) [About](/about) [Blog](/blog)
 
 ---
 

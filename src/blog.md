@@ -1,8 +1,6 @@
 ---
 title: Blog
 layout: "base.md"
-tags: MainPage
-permalink: "/blog/"
 ---
 
 ## My Blog

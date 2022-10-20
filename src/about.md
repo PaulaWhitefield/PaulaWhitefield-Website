@@ -1,8 +1,6 @@
 ---
 title: About
 layout: "base.md"
-tags: MainPage
-permalink: "/about/"
 ---
 
 ## All About Me
