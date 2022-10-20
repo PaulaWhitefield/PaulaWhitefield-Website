@@ -9,8 +9,27 @@
 
 :root
 {
-  --color-purple-pale: #ddccff;
-  --color-purple-solid: #6600cc;
+  --color-background-dark: #26004d;
+  --color-text-dark: #333;
+  --color-background-light: #ddccff;
+  --color-text-light: #ddd;
+  
+  --color-text-alt-dark: #6600cc;
+  --color-text-alt-light: #bf80ff;
+  
+  --color-background: var( --color-background-light );
+  --color-text: var( --color-text-dark );
+  --color-text-alt: var( --color-text-alt-dark );
+}
+
+@media ( prefers-color-scheme: dark )
+{
+  :root
+  {
+    --color-background: var( --color-background-dark );
+    --color-text: var( --color-text-light );
+    --color-text-alt: var( --color-text-alt-light );
+  }
 }
 
 html,
@@ -19,12 +38,13 @@ body
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: var( --color-purple-pale );
+  background-color: var( --color-background );
+  color: var( --color-text );
 }
 
 a
 {
-  color: var( --color-purple-solid );
+  color: var( --color-text-alt );
 }
 
 h1, h2, h3, h4, h5, h6, p
