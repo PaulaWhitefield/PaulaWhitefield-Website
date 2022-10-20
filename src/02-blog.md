@@ -2,7 +2,7 @@
 title: Blog
 layout: "base.md"
 tags: MainPage
-permalink: "blog.html"
+permalink: "/blog/"
 ---
 
 ## My Blog
