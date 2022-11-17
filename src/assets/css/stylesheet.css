@@ -33,6 +33,7 @@ body
 body
 {
   background-color: var( --color-background );
+  background-image: url('/assets/images/gifs/colorful-shining-stars.gif');
   color: var( --color-text );
 }
 
@@ -55,7 +56,10 @@ h1 a
 
 hr
 {
-  border-color: var( --color-text-alt );
+  /*border-color: var( --color-text-alt );*/
+  border-color: transparent;
+  background-image: url('/assets/images/gifs/purple-bar.gif');
+  height: 10px;
 }
 
 @media ( min-width: 400px )
