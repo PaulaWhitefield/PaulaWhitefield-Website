@@ -49,9 +49,23 @@ h1, h2, h3, h4, h5, h6, p
   padding: 0.5rem 1rem;
 }
 
+.header
+{
+  background-image: url('/assets/images/gifs/purple-flower.gif');
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 130px;
+  text-align: center;
+}
+
 h1 a
 {
   text-decoration: none;
+}
+
+.navbar
+{
+  text-align: center;
 }
 
 hr
@@ -67,5 +81,18 @@ hr
   h1, h2, h3, h4, h5, h6, p
   {
     padding: 0.5rem 2rem;
+  }
+  
+  .header
+  {
+    background-position: center right;
+    padding-top: 10px;
+    text-align: left;
+    height: 130px;
+  }
+  
+  .navbar
+  {
+    text-align: left;
   }
 }
