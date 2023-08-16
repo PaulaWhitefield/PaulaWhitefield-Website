@@ -15,4 +15,4 @@
 
 ---
 
-Site by [Paula Whitefield](/). Static Site Generator by [11ty](https://11ty.dev/). Hosting by [CloudFlare Pages](https://pages.cloudflare.com/).
+Site by [Paula Whitefield](/). Static Site Generator by [11ty](https://11ty.dev/). Hosting by [CloudFlare Pages](https://pages.cloudflare.com/). Source code available on [GitHub](https://github.com/PaulaWhitefield/paulawhitefield.com).
