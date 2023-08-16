@@ -1,5 +1,3 @@
-@import url( 'https://webfonts.staticly.cc/poppins/poppins.css' );
-
 *,
 *::before,
 *::after
@@ -35,7 +33,6 @@ body
 body
 {
   background-color: var( --color-background );
-  background-image: url( 'https://images.staticly.cc/gifs/colorful-shining-stars.gif' );
   background-position: center;
   background-attachment: fixed;
   color: var( --color-text );
@@ -86,7 +83,6 @@ h1 a
 hr
 {
   border-color: transparent;
-  background-image: url( 'https://images.staticly.cc/gifs/twinkling-blue-stars-line.gif' );
   background-repeat: repeat-x;
   background-position: center;
   height: 24px;
