@@ -72,10 +72,10 @@ hr
 {
   /*border-color: var( --color-text-alt );*/
   border-color: transparent;
-  background-image: url('/assets/images/gifs/purple-bar.gif');
+  background-image: url('/assets/images/gifs/twinkling-blue-stars-line.gif');
   background-repeat: repeat-x;
   background-position: center;
-  height: 10px;
+  height: 24px;
 }
 
 @media ( min-width: 600px )
