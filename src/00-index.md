@@ -2,7 +2,7 @@
 title: Home
 tags: MainPage
 layout: "base.md"
-permalink: "index.html"
+permalink: "/"
 ---
 
 ## Hello, I'm Paula!
