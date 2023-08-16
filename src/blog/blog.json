@@ -1,5 +1,5 @@
 {
-  "layout": "blog-article.md",
+  "layout": "blog-article.njk",
   "author": "Paula Whitefield",
   "tags": "BlogArticle"
 }
