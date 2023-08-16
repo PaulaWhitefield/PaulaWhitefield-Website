@@ -5,7 +5,7 @@ $site_tagline = "Personal Website";
 $site_author = "Paula Whitefield";
 $site_author_url = "/";
 
-$images_url = "https://images.staticly.ict.rocks";
-$fonts_url = "https://webfonts.staticly.ict.rocks";
+$images_url = "/assets/images";
+$fonts_url = "/assets/webfonts";
 
 $blog_datetime_format = "M j, Y \a\\t H:i";
