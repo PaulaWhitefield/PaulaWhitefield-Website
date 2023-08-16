@@ -30,6 +30,23 @@
     --color-text: var( --color-text-light );
     --color-text-alt: var( --color-text-alt-light );
   }
+  
+  body.toggle-color-mode
+  {
+    --color-background: var( --color-background-light );
+    --color-text: var( --color-text-dark );
+    --color-text-alt: var( --color-text-alt-dark );
+  }
+}
+
+@media ( prefers-color-scheme: light )
+{
+  body.toggle-color-mode
+  {
+    --color-background: var( --color-background-dark );
+    --color-text: var( --color-text-light );
+    --color-text-alt: var( --color-text-alt-light );
+  }
 }
 
 html,
