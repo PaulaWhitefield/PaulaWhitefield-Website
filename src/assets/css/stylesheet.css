@@ -89,6 +89,8 @@ hr
     padding-top: 10px;
     text-align: left;
     height: 130px;
+    max-width: 600px;
+    margin: 0 auto;
   }
   
   .navbar
