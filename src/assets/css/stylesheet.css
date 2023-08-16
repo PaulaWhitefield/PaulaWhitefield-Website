@@ -36,6 +36,8 @@ body
 {
   background-color: var( --color-background );
   background-image: url('/assets/images/gifs/colorful-shining-stars.gif');
+  background-position: center;
+  background-attachment: fixed;
   color: var( --color-text );
 }
 
@@ -53,10 +55,21 @@ h1, h2, h3, h4, h5, h6, p
 
 .header
 {
-  background-image: url('/assets/images/gifs/purple-flower.gif');
-  background-repeat: no-repeat;
-  background-position: top center;
-  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var( --max-width );
+  margin: 0 auto;
+}
+
+.header .logo
+{
+  margin-top: 1rem;
+}
+
+.header .title
+{
   text-align: center;
 }
 
@@ -89,12 +102,25 @@ hr
   
   .header
   {
-    background-position: center right;
-    padding-top: 10px;
+    flex-direction: row;
+    padding: 0 2rem;
+  }
+
+  .header .logo
+  {
+    order: 2;
+  }
+
+  .header .title
+  {
     text-align: left;
-    height: 130px;
-    max-width: var( --max-width );
-    margin: 0 auto;
+    order: 1;
+  }
+
+  .header .title h1,
+  .header .title p
+  {
+    padding: 0;
   }
   
   .navbar
