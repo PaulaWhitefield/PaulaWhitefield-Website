@@ -7,7 +7,7 @@
 
 ---
 
-{% for page in collections.MainPage %} [{{ page.data.title }}]({{ page.url }}) {% endfor %}
+{% for MenuPage in collections.MainPage %} {% if page.url.substr( 0, MenuPage.url.length ) == MenuPage.url %}**{% endif %}[{{ MenuPage.data.title }}]({{ MenuPage.url ) }}){% if page.url.substr( 0, MenuPage.url.length ) == MenuPage.url %}**{% endif %} {% endfor %}
 
 ---
 
