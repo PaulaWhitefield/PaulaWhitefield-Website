@@ -2,6 +2,7 @@
 title: About
 layout: "base.md"
 tags: MainPage
+permalink: "about.html"
 ---
 
 ## All About Me
