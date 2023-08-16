@@ -73,6 +73,8 @@ hr
   /*border-color: var( --color-text-alt );*/
   border-color: transparent;
   background-image: url('/assets/images/gifs/purple-bar.gif');
+  background-repeat: repeat-x;
+  background-position: center;
   height: 10px;
 }
 
