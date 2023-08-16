@@ -18,7 +18,7 @@ $page_content = function()
 
 <p><img src="<?php echo $images_url; ?>/gifs/at-sign.gif" style="vertical-align: middle;" alt="At (@) Sign">&nbsp;&nbsp;&nbsp;Say hello or send me a virtual hug by email.</p>
 
-<p id="email_address">cuddles [at] paulawhitefield [dot] ict [dot] rocks</p>
+<p class="email_address">cuddles [at] paulawhitefield [dot] com</p>
 
 <p><img src="<?php echo $images_url; ?>/gifs/hugs-from-me.gif" style="max-width: 100%;" alt="Hugs from Me"></p>
 
@@ -31,8 +31,14 @@ $page_content = function()
 </div>
 
 <script>
-    var email_address = 'cuddles' + '@' + 'paulawhitefield' + '.' + 'ict' + '.' + 'rocks';
-    document.getElementById('email_address').innerHTML = '<a href="mailto:' + email_address + '" target="_blank">' + email_address + '</a>';
+    var email_addresses = document.getElementsByClassName( 'email_address' );
+    
+    for( let i = 0; i < email_addresses.length; i++ )
+    {
+        var the_email_address = email_addresses[ i ].innerHTML.replaceAll( ' [at] ', '@' ).replaceAll( ' [dot] ', '.' );
+
+        email_addresses[ i ].innerHTML = '<a href="mailto:' + the_email_address + '" target="_blank">' + the_email_address + '</a>';
+    }
 </script>
 
 <?php
