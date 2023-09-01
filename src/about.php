@@ -18,7 +18,7 @@ $page_content = function()
 
 <p><img src="<?php echo $images_url; ?>/gifs/at-sign.gif" style="vertical-align: middle;" alt="At (@) Sign">&nbsp;&nbsp;&nbsp;Say hello or send me a virtual hug by email.</p>
 
-<p class="email_address">paula [dot] whitefield [at] mailbox [dot] ict [dot] rocks</p>
+<p class="email_address">paula [dot] whitefield [at] themailbox [dot] io</p>
 
 <p><img src="<?php echo $images_url; ?>/gifs/hugs-from-me.gif" style="max-width: 100%;" alt="Hugs from Me"></p>
 
