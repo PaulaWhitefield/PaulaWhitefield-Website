@@ -5,7 +5,8 @@ $site_tagline = "Personal Website";
 $site_author = "Paula Whitefield";
 $site_author_url = "/";
 
-$images_url = "https://images.storage.ict.rocks";
-$fonts_url = "https://webfonts.storage.ict.rocks";
+$storage_domain = "storage.dah5.me.uk";
+$images_url = "https://images." . $storage_domain;
+$fonts_url = "https://webfonts." . $storage_domain;
 
 $blog_datetime_format = "M j, Y \a\\t H:i";
