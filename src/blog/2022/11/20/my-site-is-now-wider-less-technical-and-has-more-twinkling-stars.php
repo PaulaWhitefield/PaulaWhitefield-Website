@@ -1,14 +1,12 @@
-<?php
+---
+article_title: My Site is now Wider, less Technical, and has more Twinkling Stars
+article_description: Adjusted the site width and moved some technical info around. Not forgetting more twinkling stars to make it prettier.
+article_author: Paula Whitefield
+article_date: 2022-11-20
+article_time: 16:30
 
-$article_title = "My Site is now Wider, less Technical, and has more Twinkling Stars";
-$article_description = "Adjusted the site width and moved some technical info around. Not forgetting more twinkling stars to make it prettier.";
-$article_author = "Paula Whitefield";
-$article_date = "2022-11-20";
-$article_time = "16:30";
-
-$article_content = function()
-{
-?>
+layout: src/_includes/base.php
+---
 
 <p>Adjusted the site width and moved some technical info around. Not forgetting more twinkling stars to make it prettier.</p>
 
@@ -51,9 +49,3 @@ $article_content = function()
 <p>Feel free to express your own comments about this article. Details on how to contact me are on the about page.</p>
 
 <p>Take care. &lt;3</p>
-
-<?php
-};
-
-if( isset( $path_to_input_file ) && basename( $path_to_input_file ) == basename( __FILE__ ) )
-include __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "blog-article.php";

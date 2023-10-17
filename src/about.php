@@ -1,14 +1,10 @@
-<?php
+---
+page_title: About
+layout: src/_includes/base.php
+---
 
-$page_title = "About";
-
-$page_content = function()
-{
-    include __DIR__ . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "config.php";
-?>
-
-<p style="text-align: center;"><img src="<?php echo $images_url; ?>/gifs/scotland-flag.gif" alt="Scotland Flag"></p>
-<p style="text-align: center;"><img src="<?php echo $images_url; ?>/gifs/about-me.gif" alt="About Me"></p>
+<p style="text-align: center;"><img src="--- metadata.images_url ---/gifs/scotland-flag.gif" alt="Scotland Flag"></p>
+<p style="text-align: center;"><img src="--- metadata.images_url ---/gifs/about-me.gif" alt="About Me"></p>
 
 <p>My name is Paula Whitefield from Ayrshire, Scotland.</p>
 
@@ -16,11 +12,11 @@ $page_content = function()
 
 <h3>Contact Me</h3>
 
-<p><img src="<?php echo $images_url; ?>/gifs/at-sign.gif" style="vertical-align: middle;" alt="At (@) Sign">&nbsp;&nbsp;&nbsp;Say hello or send me a virtual hug by email.</p>
+<p><img src="--- metadata.images_url ---/gifs/at-sign.gif" style="vertical-align: middle;" alt="At (@) Sign">&nbsp;&nbsp;&nbsp;Say hello or send me a virtual hug by email.</p>
 
 <p class="email_address">paula [dot] whitefield [at] themailbox [dot] io</p>
 
-<p><img src="<?php echo $images_url; ?>/gifs/hugs-from-me.gif" style="max-width: 100%;" alt="Hugs from Me"></p>
+<p><img src="--- metadata.images_url ---/gifs/hugs-from-me.gif" style="max-width: 100%;" alt="Hugs from Me"></p>
 
 <hr>
 
@@ -40,8 +36,3 @@ $page_content = function()
         email_addresses[ i ].innerHTML = '<a href="mailto:' + the_email_address + '" target="_blank">' + the_email_address + '</a>';
     }
 </script>
-
-<?php
-};
-
-include __DIR__ . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "base.php";

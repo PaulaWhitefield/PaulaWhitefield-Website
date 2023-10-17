@@ -1,14 +1,12 @@
-<?php
+---
+article_title: Made Changes to Website and Added some Gifs!
+article_description: Wanted a way to be more expressive, I think I did it.
+article_author: Paula Whitefield
+article_date: 2022-11-17
+article_time: 23:54
 
-$article_title = "Made Changes to Website and Added some Gifs!";
-$article_description = "Wanted a way to be more expressive, I think I did it.";
-$article_author = "Paula Whitefield";
-$article_date = "2022-11-17";
-$article_time = "23:54";
-
-$article_content = function()
-{
-?>
+layout: src/_includes/base.php
+---
 
 <p>Wanted a way to be more expressive, I think I did it.</p>
 
@@ -23,9 +21,3 @@ $article_content = function()
 <p>I plan to add more to my site as time goes on, so make sure you come back to see what I do next.</p>
 
 <p>Let me know your thoughts, and enjoy the rest of my site.</p>
-
-<?php
-};
-
-if( isset( $path_to_input_file ) && basename( $path_to_input_file ) == basename( __FILE__ ) )
-include __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "blog-article.php";

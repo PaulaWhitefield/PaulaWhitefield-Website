@@ -1,14 +1,12 @@
-<?php
+---
+article_title: Site Conversion from Markdown to Nunjucks
+article_description: It was a fun challenge to try doing it all in Markdown, but Nunjucks is better.
+article_author: Paula Whitefield
+article_date: 2022-10-28
+article_time: 04:00
 
-$article_title = "Site Conversion from Markdown to Nunjucks";
-$article_description = "It was a fun challenge to try doing it all in Markdown, but Nunjucks is better.";
-$article_author = "Paula Whitefield";
-$article_date = "2022-10-28";
-$article_time = "04:00";
-
-$article_content = function()
-{
-?>
+layout: src/_includes/base.php
+---
 
 <p>It was a fun challenge to try doing it all in Markdown, but Nunjucks is better.</p>
 
@@ -19,9 +17,3 @@ $article_content = function()
 <p>It was some task going over everything and changing it all to HTML with Nunjucks, but I think I got it all.</p>
 
 <p>Anyway, thanks for reading, and have a great day.</p>
-
-<?php
-};
-
-if( isset( $path_to_input_file ) && basename( $path_to_input_file ) == basename( __FILE__ ) )
-include __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "blog-article.php";
