@@ -1,5 +1,6 @@
 ---
 page_title: Home
+current_nav_item: home
 layout: src/_includes/base.php
 ---
 

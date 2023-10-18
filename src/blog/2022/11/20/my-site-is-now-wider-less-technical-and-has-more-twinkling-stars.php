@@ -5,6 +5,7 @@ article_author: Paula Whitefield
 article_date: 2022-11-20
 article_time: 16:30
 
+current_nav_item: blog
 layout: src/_includes/base.php
 ---
 

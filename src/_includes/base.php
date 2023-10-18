@@ -42,9 +42,10 @@ content_placeholder: {{ content }}
         <hr>
 
         <p class="navbar">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/blog">Blog</a>
+            <a href="/"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "home" ) echo ' class="current"'; ?>>Home</a>
+            <a href="/about"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "about" ) echo ' class="current"'; ?>>About</a>
+            <a href="/blog"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "blog" ) echo ' class="current"'; ?>>Blog</a>
+            <a href="/sites"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "sites" ) echo ' class="current"'; ?>>Sites</a>
         </p>
 
         <hr>

@@ -11,6 +11,7 @@
   --color-text-dark: #333;
   --color-background-light: #ddccff;
   --color-text-light: #ddd;
+  --color-text-muted: #888;
   
   --color-text-alt-dark: #6600cc;
   --color-text-alt-light: #bf80ff;
@@ -43,9 +44,9 @@ a
   color: var( --color-text-alt );
 }
 
-h1, h2, h3, h4, h5, h6, p
+h1, h2, h3, h4, h5, h6, p, .sites-list
 {
-  margin: 0 auto;
+  margin-inline: auto;
   max-width: var( --max-width );
   padding: 0.5rem 1rem;
 }
@@ -80,6 +81,17 @@ h1 a
   text-align: center;
 }
 
+.navbar a:hover,
+.navbar a.current
+{
+  text-decoration: none;
+}
+
+.navbar a.current
+{
+  font-weight: bold;
+}
+
 hr
 {
   border-color: transparent;
@@ -88,9 +100,53 @@ hr
   height: 24px;
 }
 
+.sites-list
+{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sites-list .site
+{
+  border: 1px dashed var( --color-text-alt );
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.sites-list .site .name
+{
+  color: var( --color-text-alt );
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.sites-list .site .url,
+.sites-list .site .url a
+{
+  color: var( --color-text-muted );
+  font-style: italic;
+}
+
+.sites-list .site .description
+{
+  padding-block: 2rem;
+}
+
+.sites-list .site .button a
+{
+  padding: 0.7rem 1rem;
+  background-color: var( --color-background );
+  color: var( --color-text );
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
 @media ( min-width: 600px )
 {
-  h1, h2, h3, h4, h5, h6, p
+  h1, h2, h3, h4, h5, h6, p, .sites-list
   {
     padding: 0.5rem 2rem;
   }

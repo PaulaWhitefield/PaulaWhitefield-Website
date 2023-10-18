@@ -1,5 +1,6 @@
 ---
 page_title: Blog
+current_nav_item: blog
 layout: src/_includes/base.php
 ---
 
