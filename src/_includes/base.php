@@ -61,5 +61,7 @@ content_placeholder: {{ content }}
         <hr>
     
         <p style="text-align: center;">Site by <a href="--- metadata.site_author_url ---">--- metadata.site_author ---</a>.</p>
+
+        <script type="text/javascript" src="/assets/js/script.js"></script>
     </body>
 </html>
