@@ -11,35 +11,28 @@ $sites = array();
 $sites[] = array
 (
     "name" => "Paula Whitefield",
-    "url" => "https://www.paulawhitefield.com",
+    "url" => "https://paulawhitefield.echoverse.cc",
     "description" => "My Personal Website",
 );
 
 $sites[] = array
 (
-    "name" => "Paula Whitefield (Mirror)",
-    "url" => "https://paulawhitefield.sites.bypw.me",
-    "description" => "A mirror of my personal website."
-);
-
-$sites[] = array
-(
     "name" => "Angelica Henderson",
-    "url" => "https://angelicahenderson.sites.bypw.me",
+    "url" => "https://angelicahenderson.echoverse.cc",
     "description" => "A website for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Little Innocent Angel",
-    "url" => "https://littleinnocentangel.sites.bypw.me",
+    "url" => "https://littleinnocentangel.echoverse.cc",
     "description" => "A blog site for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Anne Warren",
-    "url" => "https://annewarren.sites.bypw.me",
+    "url" => "https://annewarren.echoverse.cc",
     "description" => "A website for my good friend, Anne.",
 );
 
