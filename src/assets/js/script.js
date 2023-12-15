@@ -27,8 +27,8 @@ var starCalcs = {
 window.onmousemove = e =>
 {
     starCalcs.currentPosition = {
-        x: e.x,
-        y: e.y,
+        x: e.pageX,
+        y: e.pageY,
     }
 
     starCalcs.currentTimeInMilliseconds = new Date().getTime();
@@ -61,8 +61,8 @@ window.onmousemove = e =>
     document.body.appendChild( star );
     
     starCalcs.lastPosition = {
-        x: e.x,
-        y: e.y,
+        x: e.pageX,
+        y: e.pageY,
     }
 
     starCalcs.lastTimeInMilliseconds = new Date().getTime();
