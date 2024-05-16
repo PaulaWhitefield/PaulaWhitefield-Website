@@ -30,6 +30,48 @@ $paths_to_ignore = array( "_includes" );
 */
 $friendly_urls = true;
 
+
+/*
+	MetaData Delimiter
+	
+	This is what defines the start and end lines of metadata.
+*/
+
+$metadata_delimiter = "---";
+
+
+/*
+	Minify HTML
+
+	Removes whitespace between HTML tags, comments, and extra spaces.
+
+	Set to true to enable, or false to disable. Default is false.
+*/
+
+$minify_html = true;
+
+
+/*
+	Minify CSS
+
+	Removes comments, extra spaces, and newline characters.
+
+	Set to true to enable, or false to disable. Default is false.
+*/
+
+$minify_css = true;
+
+
+/*
+	Minify JavaScript
+
+	Removes comments, unnecessary whitespace, and newlines.
+
+	Set to true to enable, or false to disable. Default is false.
+*/
+
+$minify_js = true;
+
 // END OF CONFIGURABLE OPTIONS
 
 /*
@@ -65,7 +107,7 @@ if( is_file( $path_to_local_file ) && file_get_contents( $path_to_local_file ) =
     if( class_exists( $project_name ) )
     {
         echo "Running " . $project_name . "...\n\n";
-        $project = new $project_name( $path_to_source_files, $path_to_public_files, $paths_to_ignore, $friendly_urls );
+        $project = new $project_name( $path_to_source_files, $path_to_public_files, $paths_to_ignore, $friendly_urls, $metadata_delimiter, $minify_html, $minify_css, $minify_js );
     }
 
     echo "\n\nRemoving local " . $project_name . " file...\n";
