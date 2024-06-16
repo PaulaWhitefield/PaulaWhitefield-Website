@@ -7,7 +7,7 @@ ErrorDocument 404 /404.html
     RewriteCond %{HTTP_HOST} ^paulawhitefield.com$
     RewriteRule ^(.*)$ http://www.paulawhitefield.com/$1 [R=307,END]
 
-    RewriteConf %{SERVER_PORT} ^443$ [NC]
+    RewriteCond %{SERVER_PORT} ^443$ [NC]
     RewriteCond %{HTTP_HOST} ^paulawhitefield.com$
     RewriteRule ^(.*)$ https://www.paulawhitefield.com/$1 [R=307,END]
 </IfModule>
