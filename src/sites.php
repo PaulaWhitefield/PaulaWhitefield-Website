@@ -11,28 +11,28 @@ $sites = array();
 $sites[] = array
 (
     "name" => "Paula Whitefield",
-    "url" => "https://paulawhitefield.echoverse.cc",
+    "url" => "https://paulawhitefield.bypw.me",
     "description" => "My Personal Website",
 );
 
 $sites[] = array
 (
     "name" => "Angelica Henderson",
-    "url" => "https://angelicahenderson.echoverse.cc",
+    "url" => "https://angelicahenderson.bypw.me",
     "description" => "A website for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Little Innocent Angel",
-    "url" => "https://littleinnocentangel.echoverse.cc",
+    "url" => "https://littleinnocentangel.bypw.me",
     "description" => "A blog site for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Anne Warren",
-    "url" => "https://annewarren.echoverse.cc",
+    "url" => "https://annewarren.bypw.me",
     "description" => "A website for my good friend, Anne.",
 );
 
