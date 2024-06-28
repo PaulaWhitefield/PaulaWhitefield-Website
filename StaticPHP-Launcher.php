@@ -70,7 +70,7 @@ $minify_css = true;
 	Set to true to enable, or false to disable. Default is false.
 */
 
-$minify_js = true;
+$minify_js = false;
 
 // END OF CONFIGURABLE OPTIONS
 
