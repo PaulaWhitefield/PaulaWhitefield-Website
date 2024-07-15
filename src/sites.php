@@ -10,29 +10,22 @@ $sites = array();
 
 $sites[] = array
 (
-    "name" => "Paula Whitefield",
-    "url" => "https://paulawhitefield.bypw.me",
-    "description" => "My Personal Website",
-);
-
-$sites[] = array
-(
     "name" => "Angelica Henderson",
-    "url" => "https://angelicahenderson.bypw.me",
+    "url" => "https://angelicahenderson.indieweb.io",
     "description" => "A website for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Little Innocent Angel",
-    "url" => "https://littleinnocentangel.bypw.me",
+    "url" => "https://littleinnocentangel.indieweb.io",
     "description" => "A blog site for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Anne Warren",
-    "url" => "https://annewarren.bypw.me",
+    "url" => "https://annewarren.indieweb.io",
     "description" => "A website for my good friend, Anne.",
 );
 
