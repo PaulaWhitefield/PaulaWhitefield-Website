@@ -20,11 +20,6 @@ content_placeholder: {{ content }}
 
         <link rel="stylesheet" type="text/css" href="--- metadata.webfonts_url ---/poppins/poppins.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.css">
-
-        <style type="text/css">
-            body { background-image: url( '--- metadata.images_url ---/gifs/colorful-shining-stars.gif' ); }
-            hr { background-image: url( '--- metadata.images_url ---/gifs/twinkling-blue-stars-line.gif' ); }
-        </style>
     </head>
     
     <body>
@@ -45,6 +40,8 @@ content_placeholder: {{ content }}
             <a href="/"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "home" ) echo ' class="current"'; ?>>Home</a>
             &nbsp;
             <a href="/about"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "about" ) echo ' class="current"'; ?>>About</a>
+            &nbsp;
+            <a href="/gaming"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "gaming" ) echo ' class="current"'; ?>>Gaming</a>
             &nbsp;
             <a href="/blog"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "blog" ) echo ' class="current"'; ?>>Blog</a>
             &nbsp;

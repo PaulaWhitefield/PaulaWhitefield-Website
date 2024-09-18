@@ -23,7 +23,7 @@ layout: src/_includes/base.php
 
 <div style="padding: 2rem 0;">
     <p><b>For the technically minded...</b></p>
-    <p>I use a Static Site Generator called <a href="https://www.dah5.me.uk/staticphp" target="_blank">StaticPHP</a> to develop my site. Source code is available on <a href="https://github.com/PaulaWhitefield/PaulaWhitefield-Website" target="_blank">GitHub</a>.</p>
+    <p>I use a Static Site Generator called <a href="https://staticphp.io" target="_blank">StaticPHP</a> to develop my site. Source code is available on <a href="https://github.com/PaulaWhitefield/PaulaWhitefield-Website" target="_blank">GitHub</a>.</p>
     <p>I'm not paid to mention the above names, I just think they are awesome. Links are non-affiliated, so I <b>do not</b> get any kickback for you clicking on them.</p>
 </div>
 

@@ -21,6 +21,11 @@
   --color-text-alt: var( --color-text-alt-light );
 
   --max-width: 800px;
+
+  --color-dark-gray: #0d0d0d;
+  --color-lighter-dark-gray: #1a1a1a;
+  --color-purple-dark: #6600cc;
+  --color-purple-light: #bf80ff;
 }
 
 html,
@@ -33,7 +38,7 @@ body
 
 body
 {
-  background-color: var( --color-background );
+  background-color: var( --color-dark-gray );
   background-position: center;
   background-attachment: fixed;
   color: var( --color-text );
@@ -42,6 +47,17 @@ body
 a
 {
   color: var( --color-text-alt );
+}
+
+img
+{
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+img.showcase
+{
+  box-shadow: 2px 2px 5px var( --color-purple-dark );
 }
 
 h1, h2, h3, h4, h5, h6, p, .sites-list
@@ -69,6 +85,12 @@ h1, h2, h3, h4, h5, h6, p, .sites-list
 .header .title
 {
   text-align: center;
+  text-transform: uppercase;
+}
+
+.header .title h1 a
+{
+  color: var( --color-purple-light );
 }
 
 h1 a
@@ -79,6 +101,8 @@ h1 a
 .navbar
 {
   text-align: center;
+  background-color: var( --color-lighter-dark-gray );
+  box-shadow: 2px 2px 5px var( --color-purple-dark );
 }
 
 .navbar a:hover,
