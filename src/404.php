@@ -1,10 +1,10 @@
 ---
-page_title: Not Found (404)
+page_title: 404 Not Found
 friendly_urls: false
 layout: src/_includes/base.php
 ---
 
-<h2>Not Found (404)</h2>
+<h2>404 Not Found</h2>
 
 <p>Oops, looks like there is nothing to see here. :/</p>
 
