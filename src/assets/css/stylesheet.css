@@ -52,12 +52,15 @@ a
 img
 {
   max-width: 100%;
-  border-radius: 1rem;
 }
 
 img.showcase
 {
   box-shadow: 2px 2px 5px var( --color-purple-dark );
+  margin-left: -2rem;
+  margin-right: -2rem;
+  max-width: calc( 100% + 4rem );
+  border-radius: 0rem;
 }
 
 h1, h2, h3, h4, h5, h6, p, .sites-list
@@ -168,11 +171,16 @@ hr
   border-radius: 1rem;
 }
 
-@media ( min-width: 600px )
+@media ( min-width: 800px )
 {
   h1, h2, h3, h4, h5, h6, p, .sites-list
   {
     padding: 0.5rem 2rem;
+  }
+
+  img.showcase
+  {
+    border-radius: 1rem;
   }
   
   .header
