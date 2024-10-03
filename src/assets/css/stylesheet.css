@@ -57,9 +57,9 @@ img
 img.showcase
 {
   box-shadow: 2px 2px 5px var( --color-purple-dark );
-  margin-left: -2rem;
-  margin-right: -2rem;
-  max-width: calc( 100% + 4rem );
+  margin-left: -1rem;
+  margin-right: -1rem;
+  max-width: calc( 100% + 2rem );
   border-radius: 0rem;
 }
 
@@ -181,6 +181,9 @@ hr
   img.showcase
   {
     border-radius: 1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    max-width: calc( 100% + 4rem );
   }
   
   .header
