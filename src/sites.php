@@ -11,21 +11,21 @@ $sites = array();
 $sites[] = array
 (
     "name" => "Angelica Henderson",
-    "url" => "https://angelicahenderson.indieweb.io",
+    "url" => "https://angelicahenderson.bypw.me",
     "description" => "A website for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Little Innocent Angel",
-    "url" => "https://littleinnocentangel.indieweb.io",
+    "url" => "https://littleinnocentangel.bypw.me",
     "description" => "A blog site for my best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Anne Warren",
-    "url" => "https://annewarren.indieweb.io",
+    "url" => "https://annewarren.bypw.me",
     "description" => "A website for my good friend, Anne.",
 );
 
