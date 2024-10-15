@@ -3,9 +3,7 @@ ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
     RewriteEngine on
 
-    RewriteCond %{SERVER_PORT} ^80$
-    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=307,END]
-
-    RewriteCond %{HTTP_HOST} ^paulawhitefield.com$
-    RewriteRule ^(.*)$ https://www.paulawhitefield.com/$1 [R=307,END]
+    RewriteCond %{SERVER_PORT} ^80$ [OR]
+    RewriteCond %{HTTP_HOST} !^paulawhitefield.webaddr.net$
+    RewriteRule ^(.*)$ https://paulawhitefield.webaddr.net/$1 [R=307,END]
 </IfModule>
