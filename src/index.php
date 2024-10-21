@@ -4,14 +4,23 @@ current_nav_item: home
 layout: src/_includes/base.php
 ---
 
-<p style="text-align: center;"><img src="--- metadata.images_url ---/gifs/welcome-to-my-homepage-roses.gif" alt="Welcome to my homepage image with roses"></p>
+<h2>Welcome to the online home of Paula Whitefield.</h2>
 
-<h2>Hello, I'm Paula!</h2>
+<p>Paula is a casual gamer, wannabe musician, and hobiest web developer from Ayrshire, Scotland. Most of her time is spent watching
+YouTube videos, mostly gaming and reaction videos, but sometimes others, depends on recommendations. She also enjoys chatting online.</p>
 
-<p>Social networks these days don't let you express yourself in creative ways. Yes you can post pictures and videos and write stuff, but you can't customise the entire page to be as you like.</p>
+<p>Sometimes, when mood permits, Paula likes to work on web based projects, such as her own website, and websites
+of her friends. Visit the sites page for other websites she works on.</p>
 
-<p>I wanted more control and customisability, so I have learned how to make my very own website, so I can have full control over everything, and also best of all, zero ads.</p>
+<p>Other times, Paula likes to relax and chill out in open world free roaming games such as Minecraft,
+Grand Theft Auto, and Red Dead Redemption, and occasionally some others too. Visit the gaming page for more.</p>
 
-<p>Thank you for stopping by my website today, and I hope you enjoy what I have created.</p>
+<p>Paula isn't into music that much, but sometimes she likes to mess around and make her own music and change things up from her
+usual activities, but this is mostly on a rare occasion. Visit the music section for more on this.</p>
 
-<p style="text-align: center;"><img src="--- metadata.images_url ---/gifs/welcome-to-my-homepage-purple-flowers.gif" alt="Welcome to my homepage image with purple flowers"></p>
+<p>To get in touch with Paula, you can send her an email or talk to her on AntiLand.</p>
+
+<p><b>Email:</b>&nbsp;<span class="email-address">paula [dot] whitefield [at] themailbox [dot] net</span></p>
+<p><b>AntiLand:</b>&nbsp;<a href="https://anti.land/paula" target="_blank">https://anti.land/paula</a></p>
+
+<script type="text/javascript" src="/assets/js/anti-email-harvesting.js"></script>

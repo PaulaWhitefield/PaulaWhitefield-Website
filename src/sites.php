@@ -4,29 +4,49 @@ current_nav_item: sites
 layout: src/_includes/base.php
 ---
 
+<h2>Sites</h2>
+
+<p>Here is a list of other websites that Paula is involved in.</p>
+
+<hr>
+
 <?php
 
 $sites = array();
 
 $sites[] = array
 (
+    "name" => "Paula Whitefield",
+    "url" => "https://paulawhitefield.webaddr.net",
+    "description" => "This website you are currently on.",
+);
+
+$sites[] = array
+(
+    "name" => "Paula's World",
+    "url" => "https://paulasworld.webaddr.net",
+    "description" => "Second website.",
+);
+
+$sites[] = array
+(
     "name" => "Angelica Henderson",
-    "url" => "https://angelicahenderson.bypw.me",
-    "description" => "A website for my best friend, Angel.",
+    "url" => "https://angelicahenderson.webaddr.net",
+    "description" => "A website for best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Little Innocent Angel",
-    "url" => "https://littleinnocentangel.bypw.me",
-    "description" => "A blog site for my best friend, Angel.",
+    "url" => "https://littleinnocentangel.webaddr.net",
+    "description" => "A blog site for best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Anne Warren",
-    "url" => "https://annewarren.bypw.me",
-    "description" => "A website for my good friend, Anne.",
+    "url" => "https://annewarren.webaddr.net",
+    "description" => "A website for a good friend, Anne.",
 );
 
 ?>

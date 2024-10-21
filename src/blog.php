@@ -4,15 +4,19 @@ current_nav_item: blog
 layout: src/_includes/base.php
 ---
 
-<h2>My Blog</h2>
-<p>My latest blog articles are here.</p>
+<h2>Blog</h2>
+<p>Here is a list of blog entries where Paula writes about what is on her mind that she wants to share with the world.</p>
 
+<hr>
+
+<div class="blog-entries">
 --- loop( dir = "src/blog", sort = "descending" ) ---
+    <div class="blog-entry">
+        <div class="title"><a href="--- loop.uri ---">--- loop.article_title ---</a></div>
 
-    <h3><a href="--- loop.uri ---">--- loop.article_title ---</a></h3>
+        <div class="metadata">Authored by --- loop.article_author --- on --- loop.article_date --- at --- loop.article_time ---.</div>
 
-    <p><i>Authored by --- loop.article_author --- on --- loop.article_date --- at --- loop.article_time ---.</i></p>
-
-    <p>--- loop.article_description ---</p>
-
+        <div class="description">--- loop.article_description ---</div>
+    </div>
 --- endloop ---
+</div>

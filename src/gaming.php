@@ -4,21 +4,41 @@ current_nav_item: gaming
 layout: src/_includes/base.php
 ---
 
-<p>Here I will share things related to the games I play.</p>
+<h2>Gaming</h2>
 
-<h2>What platforms do I play on?</h2>
-<p>This is a question I get asked a lot. I own all PlayStations from 1-5, and all the Xboxes from Original to Series X.</p>
+<p>Paula likes to play casual games to chill out and relax.</p>
 
-<p><img src="/assets/images/gaming/playstation-consoles-800x600.png" alt="PlayStation Consoles" class="showcase"></p>
-<p><img src="/assets/images/gaming/xbox-consoles-800x600.png" alt="Xbox Consoles" class="showcase"></p>
+<h3>Collection of Games</h3>
 
-<p>I also sometimes play on my laptop using Steam, but most of the time I am playing on one of the above consoles.</p>
+<ul>
+    <li>Grand Theft Auto</li>
+    <li>Red Dead Redemption</li>
+    <li>Minecraft</li>
+</ul>
 
-<h2>What games do I play and which games are my favourite?</h2>
+<p><img src="/assets/images/gaming/gta-collection-800x450.png" alt="Grand Theft Auto from 1 to 5." class="breakout"></p>
 
-<p>I don't really have any specific favourites, but I do mostly play game titles by Rockstar Games, with the most played being from their Grand Theft Auto and Red Dead Redemption franchises.</p>
+<p><img src="/assets/images/gaming/other-rockstar-titles-800x600.png" alt="Other titles by Rockstar Games." class="breakout"></p>
 
-<p><img src="/assets/images/gaming/gta-collection-800x450.png" alt="Grand Theft Auto Collection" class="showcase"></p>
-<p><img src="/assets/images/gaming/other-rockstar-titles-800x600.png" alt="Other Rockstar Games Titles" class="showcase"></p>
+<p>Sometimes, other games are played too, but this is an exception to the norm.</p>
 
-<p>Occasionally, you may find me playing other games too, such as Minecraft, and others.</p>
+<h3>Platforms played on include:</h3>
+
+<p>All major PlayStation consoles.</p>
+
+<p><img src="/assets/images/gaming/playstation-consoles-800x600.png" alt="Playstations 1 through to 5." class="breakout"></p>
+
+<p>All major Xbox consoles.</p>
+
+<p><img src="/assets/images/gaming/xbox-consoles-800x600.png" alt="Original Xbox, 360, One, and Series X." class="breakout"></p>
+
+<h3>Gaming Laptop with the following specs:</h3>
+
+<ul>
+  <li>AMD Ryzen 7 CPU (8 Cores / 16 Threads)</li>
+  <li>32 GB RAM</li>
+  <li>2 TB NVMe Storage</li>
+  <li>Nvidia GeForce RTX 4060 (8 GB RAM)</li>
+</ul>
+
+

@@ -1,14 +1,7 @@
 ---
-site_title: Paula Whitefield
-site_tagline: Personal Website
-site_author: Paula Whitefield
-site_author_url: /
-
-images_url: /assets/images
-webfonts_url: /assets/webfonts
-
 content_placeholder: {{ content }}
 
+remote_assets_path: https://assets.paulawhitefield.webaddr.net
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -23,45 +16,38 @@ content_placeholder: {{ content }}
     </head>
     
     <body>
-        <div class="header">
-            <div class="logo">
-                <img src="--- metadata.images_url ---/gifs/purple-flower.gif">
+        <header>
+            <h1><img src="/assets/images/logos/pw-logo-aug24-white.png" alt="Paula Whitefield"></h1>
+
+            <label for="navbar-toggle-checkbox" id="navbar-toggle-label">Menu</label>
+            <input type="checkbox" id="navbar-toggle-checkbox">
+
+            <nav>
+                <a href="/"<?php if( isset( $metadata[ 'current_nav_item' ] ) && $metadata[ 'current_nav_item' ] == 'home' ) echo ' class="current"'; ?>>Home</a>
+                <a href="/gaming"<?php if( isset( $metadata[ 'current_nav_item' ] ) && $metadata[ 'current_nav_item' ] == 'gaming' ) echo ' class="current"'; ?>>Gaming</a>
+                <a href="/music"<?php if( isset( $metadata[ 'current_nav_item' ] ) && $metadata[ 'current_nav_item' ] == 'music' ) echo ' class="current"'; ?>>Music</a>
+                <a href="/blog"<?php if( isset( $metadata[ 'current_nav_item' ] ) && $metadata[ 'current_nav_item' ] == 'blog' ) echo ' class="current"'; ?>>Blog</a>
+                <a href="/sites"<?php if( isset( $metadata[ 'current_nav_item' ] ) && $metadata[ 'current_nav_item' ] == 'sites' ) echo ' class="current"'; ?>>Sites</a>
+            </nav>
+        </header>
+
+        <section class="content">
+            <div class="container">
+
+                <?php if( isset( $metadata['article_title'], $metadata['article_author'], $metadata['article_date'], $metadata['article_time'] ) ): ?>
+                    <h2>--- metadata.article_title ---</h2>
+
+                    <p><i>Authored by --- metadata.article_author --- on --- metadata.article_date --- at --- metadata.article_time ---.</i></p>
+                <?php endif; ?>
+                
+                {{ content }}
             </div>
+        </section>
 
-            <div class="title">
-                <h1><a href="/">--- metadata.site_title ---</a></h1>
-                <p><b><i>--- metadata.site_tagline ---</i></b></p>
+        <footer>
+            <div class="container">
+                <p>Copyright &copy; Paula Whitefield. Developed using <a href="https://staticphp.softwayr.net" target="_blank">StaticPHP</a>. Source code is on <a href="https://github.com/PaulaWhitefield/PaulaWhitefield-Website" target="_blank">GitHub</a>.</p>
             </div>
-        </div>
-
-        <hr>
-
-        <p class="navbar">
-            <a href="/"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "home" ) echo ' class="current"'; ?>>Home</a>
-            &nbsp;
-            <a href="/about"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "about" ) echo ' class="current"'; ?>>About</a>
-            &nbsp;
-            <a href="/gaming"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "gaming" ) echo ' class="current"'; ?>>Gaming</a>
-            &nbsp;
-            <a href="/blog"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "blog" ) echo ' class="current"'; ?>>Blog</a>
-            &nbsp;
-            <a href="/sites"<?php if( isset( $metadata['current_nav_item'] ) && $metadata['current_nav_item'] == "sites" ) echo ' class="current"'; ?>>Sites</a>
-        </p>
-
-        <hr>
-
-        <?php if( isset( $metadata['article_title'], $metadata['article_author'], $metadata['article_date'], $metadata['article_time'] ) ): ?>
-            <h2>--- metadata.article_title ---</h2>
-
-            <p><i>Authored by --- metadata.article_author --- on --- metadata.article_date --- at --- metadata.article_time ---.</i></p>
-        <?php endif; ?>
-
-        {{ content }}
-    
-        <hr>
-    
-        <p style="text-align: center;">Site by <a href="--- metadata.site_author_url ---">--- metadata.site_author ---</a>.</p>
-
-        <script type="text/javascript" src="/assets/js/script.js"></script>
+        </footer>
     </body>
 </html>
