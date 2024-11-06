@@ -1,7 +1,7 @@
 ---
 content_placeholder: {{ content }}
 
-remote_assets_path: https://assets.paulawhitefield.webaddr.net
+remote_assets_path: https://assets.paulawhitefield.weburl.net
 ---
 <!DOCTYPE html>
 <html lang="en">
