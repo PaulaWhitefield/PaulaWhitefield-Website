@@ -46,7 +46,7 @@ remote_assets_path: https://assets.paulawhitefield.weburl.net
 
         <footer>
             <div class="container">
-                <p>Copyright &copy; Paula Whitefield. Developed using <a href="https://staticphp.softwayr.net" target="_blank">StaticPHP</a>. Source code is on <a href="https://github.com/PaulaWhitefield/PaulaWhitefield-Website" target="_blank">GitHub</a>.</p>
+                <p>Copyright &copy; Paula Whitefield. Developed using <a href="https://weburl.net/staticphp" target="_blank">StaticPHP</a>. Source code is on <a href="https://github.com/PaulaWhitefield/PaulaWhitefield-Website" target="_blank">GitHub</a>.</p>
             </div>
         </footer>
     </body>

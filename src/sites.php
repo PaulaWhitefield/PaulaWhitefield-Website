@@ -17,35 +17,35 @@ $sites = array();
 $sites[] = array
 (
     "name" => "Paula Whitefield",
-    "url" => "https://paulawhitefield.weburl.net",
+    "url" => "https://weburl.net/paulawhitefield",
     "description" => "This website you are currently on.",
 );
 
 $sites[] = array
 (
     "name" => "Paula's World",
-    "url" => "https://paulasworld.weburl.net",
+    "url" => "https://weburl.net/paulasworld",
     "description" => "Second website.",
 );
 
 $sites[] = array
 (
     "name" => "Angelica Henderson",
-    "url" => "https://angelicahenderson.weburl.net",
+    "url" => "https://weburl.net/angelicahenderson",
     "description" => "A website for best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Little Innocent Angel",
-    "url" => "https://littleinnocentangel.weburl.net",
+    "url" => "https://weburl.net/littleinnocentangel",
     "description" => "A blog site for best friend, Angel.",
 );
 
 $sites[] = array
 (
     "name" => "Anne Warren",
-    "url" => "https://annewarren.weburl.net",
+    "url" => "https://weburl.net/annewarren",
     "description" => "A website for a good friend, Anne.",
 );
 
