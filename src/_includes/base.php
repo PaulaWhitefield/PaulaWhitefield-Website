@@ -11,7 +11,7 @@ remote_assets_path: https://assets.paulawhitefield.weburl.net
 
         <title><?php if( isset( $metadata['page_title'] ) && $metadata['page_title'] ): echo $metadata['page_title'] . " - "; endif; if( isset( $metadata['article_title'] ) && $metadata['article_title'] ): echo $metadata['article_title'] . " - Blog - "; endif; ?>Paula Whitefield</title>
 
-        <link rel="stylesheet" type="text/css" href="--- metadata.webfonts_url ---/poppins/poppins.css">
+        <link rel="stylesheet" type="text/css" href="/assets/webfonts/poppins/poppins.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.css">
     </head>
     
