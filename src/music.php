@@ -21,6 +21,13 @@ to some music and audio samples that have been made available.</p>
     </audio>
 </p>
 
+<p>Addicted To YouTube [Instrumental] (2:00) | <a href="--- metadata.remote_assets_path ---/music/addicted-to-youtube-lyrics.txt" target="_blank">Lyrics</a></p>
+<p>
+    <audio controls preload="none">
+        <source src="--- metadata.remote_assets_path ---/music/addicted-to-youtube-instrumental.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
+    </audio>
+</p>
+
 
 <h3>COVER MUSIC</h3>
 
