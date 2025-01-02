@@ -21,6 +21,6 @@ usual activities, but this is mostly on a rare occasion. Visit the music section
 <p>To get in touch with Paula, you can send her an email or talk to her on AntiLand.</p>
 
 <p><b>Email:</b>&nbsp;<span class="email-address">paula [dot] whitefield [at] themailbox [dot] net</span></p>
-<p><b>AntiLand:</b>&nbsp;<a href="https://anti.land/paula" target="_blank">https://anti.land/paula</a></p>
+<p><b>AntiLand:</b>&nbsp;<a href="https://weburl.net/paula/antiland" target="_blank">https://weburl.net/paula/antiland</a></p>
 
 <script type="text/javascript" src="/assets/js/anti-email-harvesting.js"></script>
