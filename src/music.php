@@ -17,14 +17,14 @@ to some music and audio samples that have been made available.</p>
 <p>Quick Rock Song 1 (0:34)</p>
 <p>
     <audio controls preload="none">
-        <source src="--- metadata.remote_assets_path ---/music/quick-rock-song-1.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
+        <source src="/assets/music/quick-rock-song-1.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
     </audio>
 </p>
 
-<p>Addicted To YouTube [Instrumental] (2:00) | <a href="--- metadata.remote_assets_path ---/music/addicted-to-youtube-lyrics.txt" target="_blank">Lyrics</a></p>
+<p>Addicted To YouTube [Instrumental] (2:00) | <a href="/assets/music/addicted-to-youtube-lyrics.txt" target="_blank">Lyrics</a></p>
 <p>
     <audio controls preload="none">
-        <source src="--- metadata.remote_assets_path ---/music/addicted-to-youtube-instrumental.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
+        <source src="/assets/music/addicted-to-youtube-instrumental.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
     </audio>
 </p>
 
@@ -36,28 +36,28 @@ to some music and audio samples that have been made available.</p>
 <p>Piano Cover (1:19)</p>
 <p>
     <audio controls preload="none">
-        <source src="--- metadata.remote_assets_path ---/music/my-heart-will-go-on-piano-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
+        <source src="/assets/music/my-heart-will-go-on-piano-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
     </audio>
 </p>
 
 <p>Chill Cover (2:11)</p>
 <p>
     <audio controls preload="none">
-        <source src="--- metadata.remote_assets_path ---/music/my-heart-will-go-on-chill-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
+        <source src="/assets/music/my-heart-will-go-on-chill-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
     </audio>
 </p>
 
 <p>Dance Cover (1:19)</p>
 <p>
     <audio controls preload="none">
-        <source src="--- metadata.remote_assets_path ---/music/my-heart-will-go-on-dance-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
+        <source src="/assets/music/my-heart-will-go-on-dance-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
     </audio>
 </p>
 
 <p>Epic Cover (5:36)</p>
 <p>
     <audio controls preload="none">
-        <source src="--- metadata.remote_assets_path ---/music/my-heart-will-go-on-epic-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
+        <source src="/assets/music/my-heart-will-go-on-epic-cover.mp3" type="audio/mpeg"> Sorry, but your internet browser does not support the audio playback of this music.
     </audio>
 </p>
 
